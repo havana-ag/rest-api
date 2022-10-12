@@ -18,12 +18,12 @@ const wallet = new Wallet(
 /*
  * QUOTE API
  */
-// Swap 0.1 SOL to USDC with 0.5% slippage
+// Swap 0.01 SOL to USDC with 0.5% slippage
 const quoteParams = {
   // required
   inputMint: "So11111111111111111111111111111111111111112",
   outputMint: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-  inAmount: 10000,
+  inAmount: 10000000,
 
   // optional
   direction: "InToOut", // one of { 'InToOut', 'OutToIn' }
