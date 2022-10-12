@@ -23,7 +23,7 @@ const quoteParams = {
   // required
   inputMint: "So11111111111111111111111111111111111111112",
   outputMint: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-  inAmount: 100000000,
+  inAmount: 10000,
 
   // optional
   direction: "InToOut", // one of { 'InToOut', 'OutToIn' }
