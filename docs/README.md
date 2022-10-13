@@ -16,7 +16,7 @@ In production, you'll need to pass a private key to construct a `Wallet`
 PRIVATE_KEY=YOUR_PRIVATE_KEY_HERE
 ```
 
-3. Get quote and swap 0.1 SOL to USDC:
+3. Get quote and swap 0.01 SOL to USDC:
 ```
 node quoteAndSwap.mjs
 ```
