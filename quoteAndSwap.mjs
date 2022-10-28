@@ -10,7 +10,7 @@ dotenv.config();
 
 const API_ENDPOINT = "https://trade-api.havana.ag/v1";
 
-const connection = new Connection("https://ssc-dao.genesysgo.net");
+const connection = new Connection("https://api.mainnet-beta.solana.com");
 const wallet = new Wallet(
   Keypair.fromSecretKey(bs58.decode(process.env.PRIVATE_KEY || ""))
 );
